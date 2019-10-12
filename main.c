@@ -1,19 +1,33 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   main.c                                             :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: fgracefo <fgracefo@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/10/12 18:29:48 by fgracefo          #+#    #+#             */
+/*   Updated: 2019/10/12 20:01:40 by fgracefo         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include "fillit.h"
+
 int     main(int argc, char **argv)
 {
     int fd;
+    int res;
+    int i;
 
-    if (argc != 2)
-    {
-        ft_printusage();
-        return (0);
-    }
     fd = open(argv[1], O_RDONLY);
-    if(!tetr_read_check(fd))
+    ft_putstr("aaa");
+    if(!(res = etetr_read_check(fd)))
     {
-        ft_print("error");
-        return (0);
+        printf("error");
+    }
+    else
+    {
+        printf("%d", res);
     }
     close(fd);
-    ft = open(argv[1], O_RDONLY);
-
+    return (0);
 }

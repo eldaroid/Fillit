@@ -2,6 +2,10 @@
 #ifndef FILLIT_H
 # define FILLIT_H
 # include <string.h>
+# include <unistd.h>
+# include <stdio.h>
+# include <fcntl.h>
+# include "libft/libft.h"
 
 # define L_TETR (int [8]) {0,0,1,0,2,0,2,1};
 # define L90_TETR (int [8]) {0,2,1,0,1,1,1,2};
@@ -29,5 +33,7 @@ typedef	struct		s_tetrimino
 	char				letter;
 	struct	s_tetrimino	*next;
 }					t_tetrimino;
+
+int	etetr_read_check(int fd);
 
 #endif
