@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hthunder <hthunder@student.42.fr>          +#+  +:+       +#+        */
+/*   By: eldaroid <eldaroid@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/05 18:33:43 by hthunder          #+#    #+#             */
-/*   Updated: 2019/10/08 11:53:35 by hthunder         ###   ########.fr       */
+/*   Updated: 2019/11/02 22:28:50 by eldaroid         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,6 @@
 # define BUFF_SIZE 10
 # include <stdlib.h>
 # include <fcntl.h>
-# include <sys/types.h>
-# include <sys/uio.h>
 # include <unistd.h>
 
 typedef	struct		s_list
