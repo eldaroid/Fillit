@@ -54,3 +54,5 @@ Fillit получает следующий текстовый файл карт�
 ## Как пользоваться?
 
 ![alt text](https://github.com/eldaroid/pictures/blob/master/fillit/compile.png)
+
+![alt text](https://github.com/eldaroid/pictures/blob/master/fillit/run.png)
