@@ -51,3 +51,5 @@ Fillit получает следующий текстовый файл карт�
 
 ![alt text](https://raw.githubusercontent.com/Jemmeh/42-Fillit/master/WorkFiles/ExplainationImages/RecursiveBacktrack.png)
 
+## Как пользоваться?
+
